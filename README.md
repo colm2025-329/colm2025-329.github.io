@@ -1,4 +1,4 @@
-# COLM 2025 - 329
+# COLM 2025 - 329: Bootstrapping Visual Assistant Development with Situated Interaction Simulation
 
 This is the repository that contains the demo webpage for the anonymous submission to COLM 2025 with paper ID 329.
 
