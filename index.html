@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Bootstrapping Visual Assistant Development with Si tu a e">
+  <meta name="description" content="Bootstrapping Visual Assistant Development with Situated Interaction Simulation">
   <meta property="og:title" content="Bootstrapping Visual Assistant Development with Situated Interaction Simulation"/>
   <meta property="og:description" content="Bootstrapping Visual Assistant Development with Situated Interaction Simulation"/>
   <meta property="og:url" content="https://colm2025-329.github.io"/>
@@ -60,6 +60,18 @@
       .video-item video {
         width: 100%;
         height: auto;
+      }
+
+      .video-caption {
+        margin-top: 0.5rem;
+        font-weight: 500;
+        min-height: 3em; /* Ensures consistent height for captions */
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
 
       .image-grid {
@@ -196,19 +208,16 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-model1">
           <video poster="" id="model_color_fan_blue" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/model_color_fan_blue_compressed.mp4"
-                    type="video/mp4">
+            <source src="./static/videos/model_color_fan_blue_compressed.mp4" type="video/mp4">
           </video>
-          <!-- Add caption to video -->
-          <!-- <div class="video-caption is-5 has-text-centered">Task: Change the fan's color to blue.</div> -->
+          <div class="video-caption is-5 has-text-centered">Task: Change the fan's color to blue.</div>
         </div>
+        
         <div class="item item-model2">
           <video poster="" id="model_enlarge_radio" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/model_enlarge_radio_compressed.mp4"
-                    type="video/mp4">
+            <source src="./static/videos/model_enlarge_radio_compressed.mp4" type="video/mp4">
           </video>
-          <!-- Add caption to video -->
-          <!-- <div class="video-caption is-5 has-text-centered">Task: Help grow the broken radio into a gigantic size.</div> -->
+          <div class="video-caption is-5 has-text-centered">Task: Help grow the broken radio into a gigantic size.</div>
         </div>
         <!-- some placeholders -->
         <!-- <div class="item item-model2">
